@@ -1,0 +1,63 @@
+
+# ==============================
+# Python Virtual Environment
+# ==============================
+venv/
+env/
+.venv/
+
+# ==============================
+# Python Cache Files
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.cache
+
+# ==============================
+# YOLO Training Results
+# ==============================
+runs/
+wandb/
+
+# ==============================
+# Dataset Images and Labels
+# Keep data.yaml in GitHub
+# ==============================
+dataset/train/
+dataset/valid/
+dataset/test/
+dataset/**/*.cache
+
+# ==============================
+# Jupyter Notebook Checkpoints
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Logs and Temporary Files
+# ==============================
+*.log
+*.tmp
+temp/
+.DS_Store
+Thumbs.db
+
+# ==============================
+# VS Code Settings
+# ==============================
+.vscode/
+
+# ==============================
+# Environment Variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Keep Trained YOLO Model
+# ==============================
+!model/
+!model/fire_smoke.pt
